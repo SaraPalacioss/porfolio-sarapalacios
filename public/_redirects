@@ -1,9 +1,9 @@
 /*   /index.html   200
 
-/mywork/littlebeauty /mywork/littlebeauty.html 200!
-/mywork/urbangardens /mywork/urbangardens.html 200!
+/mywork/fullprojects /mywork/fullprojects.html 200!
+/mywork/smallapps /mywork/smallapps.html 200!
 
-/about/*   /about/index.html   200!
+/readme/*   /readme/index.html   200!
 /mywork/*   /mywork/index.html   200!
-/shop/*   /shop/index.html   200!
+/blog/*   /blog/index.html   200!
 /contact/*   /contact/index.html   200!
