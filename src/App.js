@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./components/Home";
+import Landing from "./components/Landing";
 import ReadMe from "./components/ReadMe";
 import MyWork from "./components/Work/MyWork";
 import FullProjects from "./components/Work/FullProjects";
@@ -13,7 +13,7 @@ function App() {
   return (
       <Router>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Landing} />
           <Route exact path="/readme" component={ReadMe} />
           <Route exact path="/mywork" component={MyWork} />
           <Route exact path="/mywork/fullprojects" component={FullProjects} />

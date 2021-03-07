@@ -5,7 +5,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white">
+    <nav className="navbar navbar-expand-lg navbar-dark navbar-style">
       <button
         className="navbar-toggler"
         type="button"
@@ -30,7 +30,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item active">
             <a className="nav-link" href="/about">
-              About Me
+              readme.MD
             </a>
           </li>
           <li className="nav-item active">
@@ -40,7 +40,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a className="nav-link active" href="/shop">
-              Shop
+              Blog
             </a>
           </li>
           <li className="nav-item">
