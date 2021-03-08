@@ -4,6 +4,7 @@ import Navbar from "./Layout/Navbar";
 import Hero from "./Hero/Hero";
 import ReadMeTitle from "./Tittles/ReadMeTitle";
 import ReadMe from "./ReadMe/ReadMe";
+import Projects from "./Tittles/Projects";
 
 import Footer from "./Layout/Footer";
 
@@ -14,6 +15,7 @@ const Home = () => {
       <Hero/>
       <ReadMeTitle/>
       <ReadMe/>
+      <Projects/>
       <Footer />
     </Fragment>
   );
