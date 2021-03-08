@@ -1,0 +1,138 @@
+.readme {
+  // background-image: url(../../images/wallpaper.jpg);
+  background-color: #ffb510;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(30, 27, 27);
+}
+
+.readme img {
+  border-radius: 50%;
+}
+
+.readme p {
+  padding-left: 20px;
+}
+
+.readme h1 {
+    color: rgb(30, 27, 27);
+    text-decoration:underline;
+    color: white;
+  }
+
+.readme-info {
+  margin-top: 40px;
+}
+.readme-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (min-width: 30px) {
+  .readme {
+    height: fit-content;
+  }
+  .readme-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 20px;
+  }
+  .readme h1 {
+    margin-top: 10px;
+  }
+  .readme p {
+    padding-top: 10px;
+    font-size: 17px;
+  }
+  .readme img {
+    width: 180px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .readme {
+    height: 80vh;
+  }
+  .readme-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 20px;
+  }
+  .readme h1 {
+    margin-top: 10px;
+  }
+  .readme p {
+    padding-top: 40px;
+    font-size: 20px;
+  }
+  .readme img {
+    width: 330px;
+  }
+}
+
+@media (min-width: 1050px) {
+  .readme {
+    height: 80vh;
+  }
+  .readme-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 20px;
+  }
+  .readme h1 {
+    margin-top: 10px;
+  }
+  .readme p {
+    padding-top: 10px;
+    font-size: 21px;
+  }
+  .readme img {
+    width: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .readme {
+    height: 90vh;
+  }
+  .readme-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+  }
+
+  .readme p {
+    padding-top: 10px;
+    font-size: 23px;
+  }
+  .readme img {
+    width: 420px;
+  }
+}

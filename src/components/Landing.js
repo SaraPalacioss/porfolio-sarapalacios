@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Navbar from "./Layout/Navbar";
 
 import Hero from "./Hero/Hero";
-import ReadMe from "./ReadMe";
+import ReadMe from "./ReadMe/ReadMe";
 
 import Footer from "./Layout/Footer";
 

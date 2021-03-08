@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Landing from "./components/Landing";
-import ReadMe from "./components/ReadMe";
+import ReadMe from "./components/ReadMe/ReadMe";
 import MyWork from "./components/Work/MyWork";
 import FullProjects from "./components/Work/FullProjects";
 import SmallApps from "./components/Work/SmallApps";
