@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Navbar from "./Layout/Navbar";
 
 import Hero from "./Hero/Hero";
+import ReadMeTitle from "./Tittles/ReadMeTitle";
 import ReadMe from "./ReadMe/ReadMe";
 
 import Footer from "./Layout/Footer";
@@ -11,6 +12,7 @@ const Home = () => {
     <Fragment>
     <Navbar/>
       <Hero/>
+      <ReadMeTitle/>
       <ReadMe/>
       <Footer />
     </Fragment>

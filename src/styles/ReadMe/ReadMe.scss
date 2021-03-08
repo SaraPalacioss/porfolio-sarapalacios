@@ -21,10 +21,14 @@
 }
 
 .readme h1 {
-    color: rgb(30, 27, 27);
-    text-decoration:underline;
-    color: white;
-  }
+  color: rgb(30, 27, 27);
+  text-decoration: underline;
+  color: white;
+}
+
+.readme span {
+color: white;
+}
 
 .readme-info {
   margin-top: 40px;
@@ -34,6 +38,8 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+
 
 @media (min-width: 30px) {
   .readme {

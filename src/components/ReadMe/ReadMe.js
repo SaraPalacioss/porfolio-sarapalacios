@@ -9,7 +9,7 @@ import { Button } from "bootstrap";
 const ReadMe = () => {
   return (
     <div className="readme">
-      <h1>readme.MD</h1>
+    
 
       <div className="readme-info">
         <Pulse>
@@ -31,13 +31,22 @@ const ReadMe = () => {
                 a great job is having understood the need and responding to
                 expectations. My spectrum of skills includes both front-end and
                 back-end creation and, for this, I use the latest technologies
-                in the world of web development (ReactJS, NodeJS, ExpressJS,
-                MongoDB among others).
+                in web development.
+
+              <br></br>
+              <br></br>
+                <span className="stack">
+                  TECH STACK: JavaScript | TypeScript | React | NodeJS | Express
+                  | MongoDB | Mongoose | Handlebars | API REST | Git | GitHub |
+                  ES6 | HTML | CSS
+                </span>
               </p>
             </Fade>
           </div>
+          <br></br>
+              <br></br>
           <div>
-            <Fade bottom duration={1000} delay={2000} distance="30px">
+            <Fade bottom duration={1000} delay={3000} distance="30px">
               <ButtonCV />
             </Fade>
           </div>
