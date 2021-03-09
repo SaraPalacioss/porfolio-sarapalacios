@@ -35,7 +35,8 @@ import ReadMeTitle from "./components/Titles/ReadMeTitle";
 import ReadMe from "./components/ReadMe/ReadMe";
 import ProjectsTitle from "./components/Titles/ProjectsTitle";
 import Projects from "./components/Work/Projects";
-import SmallAppsTitle from "./components/Titles/";
+import SmallAppsTitle from "./components/Titles/SmallAppsTitle";
+
 import SmallApps from "./components/Work/SmallApps";
 
 
@@ -50,7 +51,7 @@ const Home = () => {
       <ReadMe/>
       <ProjectsTitle/>
       <Projects/>
-      <SmallAppsTitle/>
+    <SmallAppsTitle/>
       <SmallApps/>
 
       <Footer />

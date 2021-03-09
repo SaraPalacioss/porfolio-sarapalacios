@@ -3,11 +3,11 @@
 }
 
 .projects {
-  background-color: rgb(35, 35, 35);
   color: whitesmoke;
   background-color: rgb(35, 35, 35);
 
   height: fit-content;
+
 }
 
 .card-body {
@@ -16,4 +16,9 @@
 
 .card {
     border: none !important;
+}
+
+.card-deck {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
 }
