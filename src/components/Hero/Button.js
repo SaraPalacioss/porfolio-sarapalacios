@@ -1,10 +1,15 @@
 import React from "react";
-import "../../styles/Hero/Button.scss";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Button = () => {
   return (
-<div  className="button" id="testbutton"></div>
+    <div>
+      <Link className="button" href="readme" to="readmeid" smooth duration={1000}>
+        Know more
+      </Link>
+    </div>
   );
 };
 
 export default Button;
+

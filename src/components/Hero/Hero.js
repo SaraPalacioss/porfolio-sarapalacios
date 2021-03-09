@@ -1,10 +1,11 @@
 import React from "react";
 import Button from "./Button";
+
 import "../../styles/Hero/Hero.scss";
 
 const Hero = () => {
   return (
-    <div className="containers">
+    <div className="containers" id="heroid">
       <div className="box">
         <div className="title">
           <span className="block"></span>
