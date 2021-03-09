@@ -5,20 +5,35 @@
 .projects {
   color: whitesmoke;
   background-color: rgb(35, 35, 35);
-
-  height: fit-content;
-
+  height: fit-content !important;
 }
 
 .card-body {
   background-color: rgb(35, 35, 35);
+  
+
 }
 
 .card {
-    border: none !important;
+  border: none !important;
+  flex-direction: row !important;
+  margin-left: 150px !important;
+  margin-right: 150px !important;
+
 }
 
-.card-deck {
+@media (max-width: 1200px) {
+    .card {
+      margin-left: 10px !important;
+      margin-right: 10px !important;
+      
+    }
+    
+  }
+@media (max-width: 1000px) {
+  .card {
+    flex-direction: column !important;
     margin-left: 10px !important;
     margin-right: 10px !important;
+  }
 }

@@ -1,8 +1,13 @@
 .projects-cards small {
   color: whitesmoke;
 }
+.projects-cards {
+   margin-left: 10px !important;
+   margin-right: 10px;
 
-.projects {
+  }
+
+.projects-sa {
   color: whitesmoke;
   background-color: #ffb510;
 
@@ -10,7 +15,7 @@
   height: fit-content;
 }
 
-.card-body {
+.card-body-sa {
     background-color: #ffb510;
 
 }
