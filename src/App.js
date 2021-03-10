@@ -35,9 +35,10 @@ import ReadMeTitle from "./components/Titles/ReadMeTitle";
 import ReadMe from "./components/ReadMe/ReadMe";
 import ProjectsTitle from "./components/Titles/ProjectsTitle";
 import Projects from "./components/Work/Projects";
-import SmallAppsTitle from "./components/Titles/SmallAppsTitle";
+import AppsTitle from "./components/Titles/AppsTitle";
 
-import SmallApps from "./components/Work/SmallApps";
+import Apps from "./components/Work/Apps";
+import Contact from "./components/Contact"
 
 
 import Footer from "./components/Layout/Footer";
@@ -47,12 +48,13 @@ const Home = () => {
     <Fragment>
     <Navbar/>
       <Hero/>
-      <ReadMeTitle/>
+      {/* <ReadMeTitle/> */}
       <ReadMe/>
       <ProjectsTitle/>
       <Projects/>
-    <SmallAppsTitle/>
-      <SmallApps/>
+    <AppsTitle/>
+      <Apps/>
+      <Contact/>
 
       <Footer />
     </Fragment>

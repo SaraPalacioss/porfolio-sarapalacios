@@ -4,13 +4,10 @@ import Fade from "react-reveal/Fade";
 
 import Pulse from "react-reveal/Pulse";
 import ButtonCV from "../ReadMe/ButtonCV";
-import { Button } from "bootstrap";
 
 const ReadMe = () => {
   return (
-    <div className="readme">
-    
-
+    <div className="readme" id="readmeid">
       <div className="readme-info">
         <Pulse>
           <img
@@ -32,9 +29,8 @@ const ReadMe = () => {
                 expectations. My spectrum of skills includes both front-end and
                 back-end creation and, for this, I use the latest technologies
                 in web development.
-
-              <br></br>
-              <br></br>
+                <br></br>
+                <br></br>
                 <span className="stack">
                   TECH STACK: JavaScript | TypeScript | React | NodeJS | Express
                   | MongoDB | Mongoose | Handlebars | API REST | Git | GitHub |
@@ -44,7 +40,7 @@ const ReadMe = () => {
             </Fade>
           </div>
           <br></br>
-              <br></br>
+          <br></br>
           <div>
             <Fade bottom duration={1000} delay={3000} distance="30px">
               <ButtonCV />

@@ -1,10 +1,10 @@
 import React from "react";
-import "../../styles/Title.scss";
+import "../../styles/Titles.scss";
 
 const ReadMeTitle = () => {
   return (
-    <div class="jumbotron" id="readmeid">
-        <h1 class="display-4">readme.MD</h1>
+    <div class="jumbotron" id="smallappsid">
+        <h1 class="display-4">Small apps</h1>
       </div>
   );
 };

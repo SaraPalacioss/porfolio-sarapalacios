@@ -1,10 +1,10 @@
 import React from "react";
-import "../../styles/Title.scss";
+import "../../styles/Titles.scss";
 
 const SmallAppsTitle = () => {
   return (
     <div class="jumbotron" id="projectsid">
-      <h1 class="display-4">Small apps</h1>
+      <h1 class="display-4">Apps</h1>
     </div>
   );
 };

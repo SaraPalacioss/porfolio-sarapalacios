@@ -50,8 +50,8 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="/smallapps">
-              <Link to="smallappsid" smooth duration={1000}>
+            <a className="nav-link" href="/apps">
+              <Link to="appsid" smooth duration={1000}>
                 Apps
               </Link>{" "}
               <span className="sr-only">(current)</span>

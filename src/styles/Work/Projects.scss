@@ -1,25 +1,38 @@
 .projects-cards small {
-  color: whitesmoke;
+  font-size: medium;
 }
+
+.projects-cards h5 {
+    color: rgb(218, 141, 26);
+  }
+  
 
 .projects {
   color: whitesmoke;
-  background-color: rgb(35, 35, 35);
+  background-color: rgb(15, 15, 15);
   height: fit-content !important;
 }
 
 .card-body {
-  background-color: rgb(35, 35, 35);
+  background-color: rgb(15, 15, 15);
   
 
 }
 
-.card {
-  border: none !important;
-  flex-direction: row !important;
-  margin-left: 150px !important;
-  margin-right: 150px !important;
 
+.card {
+  border: gainsboro !important;
+  flex-direction: row !important;
+
+
+}
+
+@media (max-width: 1000px) {
+  .card {
+    flex-direction: column !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -30,10 +43,3 @@
     }
     
   }
-@media (max-width: 1000px) {
-  .card {
-    flex-direction: column !important;
-    margin-left: 10px !important;
-    margin-right: 10px !important;
-  }
-}
