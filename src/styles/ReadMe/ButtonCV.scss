@@ -1,34 +1,46 @@
-.btn-cv {
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    height: 2px;
-    line-height: 2px;
-    color: #FFFFFF;
-    font-family: Helvetica;
-    width: 120px;
-    font-size: 13px;
-    font-weight: 100;
-    padding: 12px;
-    background-color: #353746;
-    -webkit-box-shadow: 1px 1px 20px 0 #000000;
-    -moz-box-shadow: 1px 1px 20px 0 #000000;
-    box-shadow: 1px 1px 20px 0 #000000;
-    text-shadow: 1px 1px 20px #000000;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    margin-bottom: 20PX;
-    margin-left: 20px;
- }
+.cta-btn {
+   display: inline-block;
+   position: relative;
+   padding: 0.8rem 1.6rem;
+   font-weight: bold;
+   line-height: 1;
+   z-index: 1;
+   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
  
- .btn-cv:hover {
-    background:white;
-    border: white;
-    color: rgb(20, 16, 16);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    text-decoration: none;
+   &::after {
+     content: '';
+     display: block;
+     position: absolute;
+     width: 0px;
+     height: 100%;
+     left: 0;
+     bottom: 0;
+     z-index: -1;
+     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+   }
+ }
+
+ .btn-box {
+    padding-left: 10px;
+ }
+ .btn-cv {
+   color: #292828;
+   border: 2px solid #292828;
+   margin: 10px;
+   padding: 10px;
+   
+ 
+   &::after {
+     background: #292828;
+   }
+ 
+   &:hover {
+     color: #df8b0e;
+     background-color: rgb(0, 0, 0);
+     text-decoration: none;
+ 
+     &::after {
+       width: 100%;
+     }
+   }
  }

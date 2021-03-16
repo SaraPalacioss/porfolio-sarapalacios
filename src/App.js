@@ -8,7 +8,6 @@
 // import Blog from "./components/Blog";
 // import Contact from "./components/Contact";
 
-
 // function App() {
 //   return (
 //       <Router>
@@ -38,23 +37,22 @@ import Projects from "./components/Work/Projects";
 import AppsTitle from "./components/Titles/AppsTitle";
 
 import Apps from "./components/Work/Apps";
-import Contact from "./components/Contact"
-
+import Contact from "./components/Contact";
 
 import Footer from "./components/Layout/Footer";
 
 const Home = () => {
   return (
     <Fragment>
-    <Navbar/>
-      <Hero/>
-      {/* <ReadMeTitle/> */}
-      <ReadMe/>
-      <ProjectsTitle/>
-      <Projects/>
-    <AppsTitle/>
-      <Apps/>
-      <Contact/>
+      <Navbar />
+      <Hero />
+      <ReadMeTitle />
+      <ReadMe />
+      <ProjectsTitle />
+      <Projects />
+      <AppsTitle />
+      <Apps />
+      <Contact />
 
       <Footer />
     </Fragment>
@@ -62,4 +60,3 @@ const Home = () => {
 };
 
 export default Home;
-

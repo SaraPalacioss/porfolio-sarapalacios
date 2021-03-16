@@ -1,10 +1,13 @@
 import React from "react";
+import Pulse from 'react-reveal/Pulse';
 import "../../styles/Titles.scss";
 
 const ProjectsTitle = () => {
   return (
-    <div class="jumbotron" id="projectsid">
-      <h1 class="display-4">Projects</h1>
+    <div className="jumbotron" id="projectsid">
+      <Pulse>
+        <h1 className="display-4">Projects</h1>
+      </Pulse>
     </div>
   );
 };

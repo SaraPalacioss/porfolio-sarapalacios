@@ -1,30 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+
 .projects-cards small {
   font-size: medium;
 }
 
 .projects-cards h5 {
-    color: rgb(218, 141, 26);
-  }
-  
+  color: rgb(218, 141, 26);
+}
 
 .projects {
   color: whitesmoke;
   background-color: rgb(15, 15, 15);
   height: fit-content !important;
+  font-family: "Montserrat", sans-serif;
 }
 
 .card-body {
   background-color: rgb(15, 15, 15);
-  
-
 }
-
 
 .card {
   border: gainsboro !important;
   flex-direction: row !important;
-
-
 }
 
 @media (max-width: 1000px) {
@@ -36,10 +33,74 @@
 }
 
 @media (max-width: 1200px) {
-    .card {
-      margin-left: 10px !important;
-      margin-right: 10px !important;
-      
-    }
-    
+  .card {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
   }
+}
+
+.cta-btn {
+  display: inline-block;
+  position: relative;
+  padding: 0.8rem 1.6rem;
+  font-weight: bold;
+  line-height: 1;
+  z-index: 1;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+  }
+}
+
+/* Hero Style */
+.cta-btn-hero {
+  background-image: linear-gradient(135deg, #fdcb41 0%, #df8b0e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(135deg, #fdcb41 0%, #df8b0e 100%);
+  border-image-slice: 1;
+  border-radius: 8px 0px 8px 0px;
+  -moz-border-radius: 8px 0px 8px 0px;
+  -webkit-border-radius: 8px 0px 8px 0px;
+  border: 1px solid #f8bd3e;
+  cursor: pointer;
+  // Responsive Button hero style
+
+  &::after {
+    background-image: linear-gradient(135deg, #fdcb41 0%, #df8b0e 100%);
+    border-radius: 8px 0px 8px 0px;
+
+    border: 0px solid #f8bd3e;
+  }
+
+  &:hover {
+    -webkit-text-fill-color: #292828;
+    text-decoration: none;
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+.text-color-main {
+  background-image: linear-gradient(135deg, #fdcb41 0%, #df8b0e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  &:hover {
+    transform: translateX(2px);
+    cursor: pointer;
+  }
+}

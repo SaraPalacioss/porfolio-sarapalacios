@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../../styles/ReadMe/ReadMe.scss";
 import Fade from "react-reveal/Fade";
 
@@ -39,13 +39,13 @@ const ReadMe = () => {
               </p>
             </Fade>
           </div>
-          <br></br>
-          <br></br>
+        
           <div>
             <Fade bottom duration={1000} delay={3000} distance="30px">
               <ButtonCV />
             </Fade>
           </div>
+          <br></br>
         </div>
       </div>
     </div>

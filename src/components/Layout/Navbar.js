@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 import "../../styles/Layout/Navbar.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -26,36 +26,32 @@ const Navbar = () => {
       >
         <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
           <li className="nav-item active">
-            <a className="nav-link" href="/home">
-              <Link to="heroid" smooth duration={1000}>
+            <Link className="nav-link" href="/home" to="heroid" smooth duration={1000}>
+             
                 Home
-              </Link>{" "}
+           
               <span className="sr-only">(current)</span>
-            </a>
+            </Link>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="/readme">
-              <Link to="readmeid" smooth duration={1000}>
+            <Link className="nav-link" href="/readme" to="readmeid" smooth duration={1000}>
                 readme.MD
-              </Link>{" "}
               <span className="sr-only">(current)</span>
-            </a>
+            </Link>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="/projects">
-              <Link to="projectsid" smooth duration={1000}>
+            <Link className="nav-link" href="/projects" to="projectsid" smooth duration={1000}>
+            
                 Projects
-              </Link>{" "}
+          
               <span className="sr-only">(current)</span>
-            </a>
+            </Link>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="/apps">
-              <Link to="appsid" smooth duration={1000}>
+            <Link className="nav-link" href="/apps" to="appsid" smooth duration={1000}>
                 Apps
-              </Link>{" "}
               <span className="sr-only">(current)</span>
-            </a>
+            </Link>
           </li>
           <li className="nav-item" href="/contact">
             <a
