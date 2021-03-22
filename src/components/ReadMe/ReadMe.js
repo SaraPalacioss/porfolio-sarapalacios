@@ -32,7 +32,10 @@ const ReadMe = () => {
                 <br></br>
                 <br></br>
                 <span className="stack">
-                  TECH STACK: JavaScript | TypeScript | React | NodeJS | Express
+                  TECH STACK: 
+                  <br></br>
+                  <br></br>
+                  JavaScript | TypeScript | React | NodeJS | Express
                   | MongoDB | Mongoose | Handlebars | API REST | Git | GitHub |
                   ES6 | HTML | CSS
                 </span>

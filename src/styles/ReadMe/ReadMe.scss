@@ -128,7 +128,7 @@ color: white;
   }
   .readme-info {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-content: center;
     align-items: center;
@@ -142,6 +142,6 @@ color: white;
     font-size: 23px;
   }
   .readme img {
-    width: 420px;
+    width: 350px;
   }
 }

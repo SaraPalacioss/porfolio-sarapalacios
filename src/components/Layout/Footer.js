@@ -1,5 +1,5 @@
 import React, {Fragment} from "react";
-// import "../../styles/Layout/Footer.scss";
+import "../../styles/Layout/Footer.scss";
 import "bootstrap/dist/css/bootstrap.css";
 
 const Footer = () => {

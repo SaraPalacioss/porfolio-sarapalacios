@@ -37,6 +37,8 @@ import Projects from "./components/Work/Projects";
 import AppsTitle from "./components/Titles/AppsTitle";
 
 import Apps from "./components/Work/Apps";
+import ContactTitle from "./components/Titles/ContactTitle";
+
 import Contact from "./components/Contact";
 
 import Footer from "./components/Layout/Footer";
@@ -46,12 +48,13 @@ const Home = () => {
     <Fragment>
       <Navbar />
       <Hero />
-      <ReadMeTitle />
+      {/* <ReadMeTitle /> */}
       <ReadMe />
       <ProjectsTitle />
       <Projects />
       <AppsTitle />
       <Apps />
+      {/* <ContactTitle/> */}
       <Contact />
 
       <Footer />

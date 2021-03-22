@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 
 const Apps = () => {
   return (
-    <div className="app-style">
+    <div className="app-style" id="appsid">
       <br></br>
       <br></br>
       <Fade bottom duration={1000} delay={1000} distance="30px">

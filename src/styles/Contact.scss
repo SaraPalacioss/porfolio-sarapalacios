@@ -1,0 +1,87 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 40vh;
+    align-items: center;
+    background-color: #ffb510;
+  
+}
+
+.social-icons{
+    margin-top: 100px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+ 
+    
+    
+}
+
+.social-icons > div{
+
+    display: flex;
+
+    padding: 20px;
+    
+    
+}
+
+.social-icons img {
+    width: 50px;
+}
+
+
+
+
+.cta-btn {
+    display: inline-block;
+    position: relative;
+    padding: 0.8rem 1.6rem;
+    font-weight: bold;
+    line-height: 1;
+    z-index: 1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+  
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 0px;
+      height: 100%;
+      left: 0;
+      bottom: 0;
+      z-index: -1;
+      transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+    }
+  }
+ 
+  .btn-box {
+     padding-left: 10px;
+  }
+  .btn-cv {
+    color: #ffffff;
+    border: 2px solid #292828;
+      background-color: #292828;
+      
+    margin: 10px;
+    padding: 30px;
+    font-size: larger;
+    
+  
+    &::after {
+      background: #292828;
+    }
+  
+    &:hover {
+      color: #df0e70;
+      background-color: rgb(0, 0, 0);
+      text-decoration: none;
+  
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+ 

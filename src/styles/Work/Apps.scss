@@ -1,14 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
 figure.snip0015 {
   font-family: 'Raleway', Arial, sans-serif;
-  color: #fff;
+  color: rgb(255, 255, 255);
   position: relative;
   overflow: hidden;
   margin: 10px;
   // min-width: 220px;
   // max-width: 310px;
   height: 100%;
-  background-color: black;
+  background-color: #201f1f;
   border:white;
   // width: 100%;
   // height: 100%;
@@ -121,4 +121,4 @@ figure.snip0015:hover figcaption::before {
 }
 
 .app-style {
-    background-color: rgb(15, 15, 15);}
+    background-color: #201f1f;}

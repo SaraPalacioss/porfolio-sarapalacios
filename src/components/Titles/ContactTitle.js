@@ -6,7 +6,7 @@ const ReadMeTitle = () => {
   return (
     <div className="jumbotron" >
       <Pulse>
-        <h1 className="display-4" id="readmeid">readme.MD</h1>
+        <h1 className="display-4" id="readmeid">Contact</h1>
       </Pulse>
     </div>
   );
