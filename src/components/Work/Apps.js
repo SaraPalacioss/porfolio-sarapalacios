@@ -8,94 +8,97 @@ const Apps = () => {
     <div className="app-style" id="appsid">
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
       <Fade bottom duration={1000} delay={1000} distance="30px">
 
       <div className="card-columns container">
         <div className="card">
           <figure className="snip0015 card-img-top">
             <img
-              src="https://resizer.iproimg.com/unsafe/880x/https://assets.iproup.com/assets/jpg/2019/11/6807.jpg?6.3.1"
+              src="https://i.ibb.co/MGk4f2L/Cripto.jpg"
               alt="criptoconverter"
             />
 
             <figcaption className="title-style">
               <h4>Criptoconverter</h4>
-              <a href="www.google.es"> </a>
+              <a href="https://criptoconverter.netlify.app"> </a>
             </figcaption>
           </figure>
         </div>
         <div className="card">
           <figure className="snip0015 card-img-top">
             <img
-              src="https://s3.scoopwhoop.com/anj/WW/487207588.png"
+              src="https://i.ibb.co/PgL8D37/BBad.webp"
               alt="bd"
             />
 
             <figcaption className="title-style">
               <h4>Breaking Bad quotes</h4>
-              <a href="www.google.es"> </a>
+              <a href="https://breakingbadquotess.netlify.app"> </a>
             </figcaption>
           </figure>
         </div>
         <div className="card">
           <figure className="snip0015 card-img-top">
             <img
-              src="https://gestiondeclinicasveterinarias.com/wp-content/uploads/2016/03/oficina-veterinaria-virtual-clinicas.jpg"
+              src="https://i.ibb.co/q9psK3P/oficina-veterinaria-virtual-clinicas.jpg
+"
               alt="vet"
             />
 
             <figcaption className="title-style">
             <h4>Veterinary booking</h4>
-              <a href="www.google.es"> </a>
+              <a href="https://citasadministrador.netlify.app"> </a>
             </figcaption>
           </figure>
         </div>
         <div className="card">
           <figure className="snip0015 card-img-top">
             <img
-              src="https://www.lyricfind.com/assets/images/services/LyricsSearch.jpg"
+              src="https://i.ibb.co/DVdXVrd/Lyrics-Search.jpg"
               alt="lyricssearch"
             />
 
             <figcaption className="title-style">
-              <h4>Criptoconverter</h4>
-              <a href="www.google.es"> </a>
+              <h4>Lyrics Search</h4>
+              <a href="https://buscadordeletras.netlify.app"> </a>
             </figcaption>
           </figure>
         </div>
         <div className="card">
           <figure className="snip0015 card-img-top">
             <img
-              src="https://lh3.googleusercontent.com/proxy/Kqa-PSpK1Ydb9ILt1ebEwDz3ZnmNsuY8ERc9JAZ9hLvz_TRDj6qFyE0v9B_e82RrfOCyxSWV_JEqiDytVsQGu0ty0gyY-tcXCCq1-YD9L_Lju4Wre9zlim10AWNQx7DdJWTyU9AP7rfI-Kg" alt="imagessearch"
+              src="https://i.ibb.co/xmNsNnL/Imagessearch.jpg" alt="imagessearch"
             />
 
             <figcaption className="title-style">
-              <h4>Criptoconverter</h4>
-              <a href="www.google.es"> </a>
+              <h4>Images finder</h4>
+              <a href="https://imagenesfinder.netlify.app"> </a>
             </figcaption>
           </figure>
         </div>
         <div className="card">
           <figure className="snip0015 card-img-top">
             <img
-              src="https://lucep.com/wp-content/uploads/2016/07/budget-iStock_000041295790_Large-1.jpg" alt="budget"
+              src="https://i.ibb.co/x7WwB2c/Burget.jpg" alt="budget"
             />
 
             <figcaption className="title-style">
-              <h4>Criptoconverter</h4>
-              <a href="www.google.es"> </a>
+              <h4>Burget</h4>
+              <a href="https://presupuestocontrol.netlify.app"> </a>
             </figcaption>
           </figure>
         </div>
         <div className="card">
           <figure className="snip0015 card-img-top">
             <img
-              src="https://www.quoteme.ie/img/images/car-insurance-calculator.jpg" alt="carassurance"
+              src="https://i.ibb.co/K73dNzV/Calculator.jpg" alt="carassurance"
             />
 
             <figcaption className="title-style">
-              <h4>Criptoconverter</h4>
-              <a href="www.google.es"> </a>
+              <h4>Car Assurance Calculator</h4>
+              <a href="https://cotizadorparaseguros.netlify.app"> </a>
             </figcaption>
           </figure>
         </div>
@@ -106,12 +109,19 @@ const Apps = () => {
             />
 
             <figcaption className="title-style">
-              <h4>Criptoconverter</h4>
-              <a href="www.google.es"> </a>
+              <h4>Weather</h4>
+              <a href="https://eltiempoactual.netlify.app"> </a>
             </figcaption>
           </figure>
         </div>
       
+
+        
+
+
+
+
+
         {/* <div className="card">
         <img
           className="card-img-top"

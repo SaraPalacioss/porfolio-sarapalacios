@@ -7,7 +7,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark navbar-style">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-dark navbar-style">
       <button
         className="navbar-toggler"
         type="button"
@@ -53,13 +53,11 @@ const Navbar = () => {
               <span className="sr-only">(current)</span>
             </Link>
           </li>
-          <li className="nav-item" href="/contact">
-            <a
-              className="nav-link active"
-              href="mailto:contact@sarapalacios.me"
-            >
-              Contact
-            </a>
+          <li className="nav-item active">
+            <Link className="nav-link" href="/contact" to="contactid" smooth duration={1000}>
+                Contact
+              <span className="sr-only">(current)</span>
+            </Link>
           </li>
         </ul>
       </div>

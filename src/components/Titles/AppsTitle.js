@@ -7,7 +7,7 @@ const SmallAppsTitle = () => {
   return (
     <div className="jumbotron" id="projectsid">
       <Pulse>
-        <h1 className="display-4">Apps</h1>
+        <h1 className="display-4">- Apps -</h1>
       </Pulse>
     </div>
   );

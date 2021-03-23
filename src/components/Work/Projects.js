@@ -7,6 +7,8 @@ const Projects = () => {
     <div className="projects">
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
       <div className="projects-cards container">
         <Fade right duration={1000} delay={1000} distance="30px">
           <div className="d-flex card">
@@ -38,7 +40,7 @@ const Projects = () => {
                   className="cta-btn cta-btn-hero"
                   href="https://www.sarapalacios.me"
                 >
-                  Current site
+                  Current Live
                 </a>
                 <a
                   target="_blank"
@@ -47,7 +49,7 @@ const Projects = () => {
                   href="https://www.sarapalacios.me"
 
                 >
-                  GitHub
+                  Code
                 </a>
               </div>
               </Fade>
@@ -86,7 +88,7 @@ const Projects = () => {
                   className="cta-btn cta-btn-hero"
                   href="https://www.sarapalacios.me"
                 >
-                  Site
+                  Live
                 </a>
 
                 <a
@@ -96,7 +98,7 @@ const Projects = () => {
                   href="https://www.sarapalacios.me"
 
                 >
-                  GitHub
+                  Code
                 </a>
               </div>
               </Fade>
@@ -133,7 +135,7 @@ const Projects = () => {
                   className="cta-btn cta-btn-hero"
                   href="https://www.sarapalacios.me"
                 >
-                  Site
+                  Live
                 </a>
 
                 <a
@@ -143,7 +145,7 @@ const Projects = () => {
                   href="https://www.sarapalacios.me"
 
                 >
-                  GitHub
+                  Code
                 </a>
               </div>
               </Fade>
@@ -180,7 +182,7 @@ const Projects = () => {
                   className="cta-btn cta-btn-hero"
                   href="https://www.sarapalacios.me"
                 >
-                  Site
+                  Live
                 </a>
 
                 <a
@@ -190,7 +192,7 @@ const Projects = () => {
                   href="https://www.sarapalacios.me"
 
                 >
-                  GitHub
+                  Code
                 </a>
               </div>
               </Fade>

@@ -35,9 +35,23 @@ const ReadMe = () => {
                   TECH STACK: 
                   <br></br>
                   <br></br>
-                  JavaScript | TypeScript | React | NodeJS | Express
-                  | MongoDB | Mongoose | Handlebars | API REST | Git | GitHub |
-                  ES6 | HTML | CSS
+                  <div className="stack-container">
+                  <div><a className="stack-style">JavaScript</a></div> 
+                  <div><a className="stack-style">TypeScript</a></div>
+                  <div><a className="stack-style">React</a></div>
+                  <div><a className="stack-style">NodeJS</a></div>
+                  <div><a className="stack-style">Express</a></div>
+                  <div><a className="stack-style">MongoDB</a></div>
+                  <div><a className="stack-style">Mongoose</a></div>
+                  <div><a className="stack-style">Handlebars</a></div>
+                  <div><a className="stack-style">API REST</a></div>
+                  <div><a className="stack-style">Git</a></div>
+                  <div><a className="stack-style">GitHub</a></div>
+                  <div><a className="stack-style">ES6</a></div>
+                  <div><a className="stack-style">HTML</a></div>
+                  <div><a className="stack-style">CSS</a></div>
+                  </div>
+            
                 </span>
               </p>
             </Fade>

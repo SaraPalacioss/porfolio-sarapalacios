@@ -1,9 +1,8 @@
 .navbar-style {
-   background-color: #201f1f !important;
-   position: fixed!important;
-   width: 100%;
-   z-index: 100;
+   background-color: transparent !important;
 }
 
-
+.navbar-style a:hover{
+   color: rgb(204, 39, 121) !important;
+}
 
