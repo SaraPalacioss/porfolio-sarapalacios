@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark navbar-style">
       <button
-        className="navbar-toggler"
+        className="navbar-toggler collapse-style"
         type="button"
         data-toggle="collapse"
         data-target="#navbarTogglerDemo02"

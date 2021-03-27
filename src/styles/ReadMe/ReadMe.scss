@@ -48,20 +48,20 @@ color: white;
   width: fit-content;
   text-decoration: none;
   color: gainsboro;
+  margin: 2px;
 }
 
 .stack-style:hover {
-  color: gainsboro;
+  color: rgb(182, 41, 123);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .stack-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   line-height: 80px;
-  align-items: center;
-  align-content: center;
 
 }
 
