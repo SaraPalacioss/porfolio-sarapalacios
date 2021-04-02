@@ -1,4 +1,5 @@
 import React from "react";
+import i18n from '../../i18n';
 import "../../styles/ReadMe/ReadMe.scss";
 import Fade from "react-reveal/Fade";
 
@@ -20,21 +21,14 @@ const ReadMe = () => {
             {" "}
             <Fade right duration={1000} delay={1000} distance="30px">
               <p>
-                After working for more than 10 years in other sectors, I have
-                decided to dedicate myself professionally to my true passion,
-                web development. I am in love with technology and I like being
-                able to create different solutions that really serve people and
-                add value. In my experience, what distinguishes a good job from
-                a great job is having understood the need and responding to
-                expectations. My spectrum of skills includes both front-end and
-                back-end creation and, for this, I use the latest technologies
-                in web development.
+              {i18n.t('bio')}
                 <br></br>
                 <br></br>
                 <span className="stack">
-                  TECH STACK: 
+                {i18n.t('tech_stack')}: 
                   <br></br>
                   <br></br>
+              
                   <div className="stack-container">
                   <div><a className="stack-style">JavaScript</a></div> 
                   <div><a className="stack-style">TypeScript</a></div>
@@ -56,7 +50,8 @@ const ReadMe = () => {
               </p>
             </Fade>
           </div>
-        
+          <br></br>
+              
           <div>
             <Fade bottom duration={1000} delay={3000} distance="30px">
               <ButtonCV />

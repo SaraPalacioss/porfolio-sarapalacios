@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
 
 .readme {
-  // background-image: url(../../images/wallpaper.jpg);
   background-color: #ffb510;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,12 +24,15 @@
 
 .readme h1 {
   color: rgb(30, 27, 27);
-  text-decoration: underline;
   color: white;
 }
 
 .readme span {
 color: white;
+}
+
+.stack-t {
+  text-decoration: underline;
 }
 
 .readme-info {
@@ -44,11 +46,12 @@ color: white;
 
 .stack-style {
   background-color: rgb(48, 44, 44);
-  padding: 20px;
+  padding: 15px;
   width: fit-content;
   text-decoration: none;
   color: gainsboro;
-  margin: 2px;
+  margin: 1px;
+  font-size: medium;
 }
 
 .stack-style:hover {
@@ -61,9 +64,11 @@ color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  line-height: 80px;
+  line-height: 50px;
+  
 
 }
+
 
 
 @media (min-width: 30px) {
@@ -94,7 +99,7 @@ color: white;
 
 @media (min-width: 1000px) {
   .readme {
-    height: 80vh;
+    height: fit-content;
   }
   .readme-info {
     display: flex;
@@ -120,7 +125,7 @@ color: white;
 
 @media (min-width: 1050px) {
   .readme {
-    height: 80vh;
+    height: fit-content;
   }
   .readme-info {
     display: flex;
@@ -146,7 +151,7 @@ color: white;
 
 @media (min-width: 1200px) {
   .readme {
-    height: 90vh;
+    height: fit-content;
   }
   .readme-info {
     display: flex;

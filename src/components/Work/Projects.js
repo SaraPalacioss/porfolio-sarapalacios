@@ -1,17 +1,16 @@
 import React from "react";
+import i18n from '../../i18n';
 import "../../styles/Work/Projects.scss";
 import Fade from "react-reveal/Fade";
 
 const Projects = () => {
   return (
-    <div className="projects">
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <div className="projects-cards container">
+    <div className="projects-bg"> 
+    <div className="projects container">
+      
+      <div className="projects-cards  card-deck">
         <Fade right duration={1000} delay={1000} distance="30px">
-          <div className="d-flex card">
+          <div className="card">
             <div>
               <img
                 className="card-img-top"
@@ -22,9 +21,7 @@ const Projects = () => {
             <div className="card-body">
               <h5 className="card-title">Sara Palacios Web Dev Portfolio</h5>
               <p className="card-text">
-                This is my Ironhack final project. It's a full responsive MERN
-                web application make with ReactJs, ExpressJs, NodeJs, MongoDB,
-                Axios, API Rest & Bootstrap.
+                {i18n.t('portfolio')}
               </p>
               <p className="card-text">
                 <small className="stack-text">
@@ -33,33 +30,36 @@ const Projects = () => {
               </p>
               <Fade bottom duration={1000} delay={2000} distance="30px">
 
-              <div>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cta-btn cta-btn-hero"
-                  href="https://www.sarapalacios.me"
-                >
-                  Current Live
+                <div>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta-btn cta-btn-hero"
+                    href="https://www.sarapalacios.me"
+                  >
+                    Current site
                 </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cta-btn text-color-main"
-                  href="https://www.sarapalacios.me"
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta-btn text-color-main"
+                    href="https://www.sarapalacios.me"
 
-                >
-                  Code
+                  >
+                    GitHub
                 </a>
-              </div>
+                </div>
               </Fade>
             </div>
           </div>
+
+
+
         </Fade>
-        <br></br>
+
         <Fade right duration={1000} delay={1000} distance="30px">
-          <div className="d-flex card">
-          
+          <div className="card">
+
             <div>
               <img
                 className="card-img-top"
@@ -71,9 +71,7 @@ const Projects = () => {
             <div className="card-body">
               <h5 className="card-title">theGoodFilm</h5>
               <p className="card-text">
-                This is my Ironhack final project. It's a full responsive MERN
-                web application make with ReactJs, ExpressJs, NodeJs, MongoDB,
-                Axios, API Rest & Bootstrap.
+                {i18n.t('thegoodfilm')}
               </p>
               <p className="card-text">
                 <small className="stack-text">
@@ -81,129 +79,132 @@ const Projects = () => {
                 </small>
               </p>
               <Fade bottom duration={1000} delay={2000} distance="30px">
-              <div>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cta-btn cta-btn-hero"
-                  href="https://www.sarapalacios.me"
-                >
-                  Live
+                <div>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta-btn cta-btn-hero"
+                    href="https://www.sarapalacios.me"
+                  >
+                    Site
                 </a>
 
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cta-btn text-color-main"
-                  href="https://www.sarapalacios.me"
-
-                >
-                  Code
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta-btn text-color-main"
+                    href="https://www.sarapalacios.me"
+                  >
+                    GitHub
                 </a>
-              </div>
-              </Fade>
-            </div>
-          </div>
-        </Fade>
-        <br></br>
-        <Fade right duration={1000} delay={1000} distance="30px">
-          <div className="d-flex card">
-            <div>
-              <img
-                className="card-img-top"
-                src="https://i.ibb.co/42Tn4BY/cocktails-3.png"
-                alt="cocktails"
-              />
-            </div>
-            <div className="card-body">
-              <h5 className="card-title">All city cocktails</h5>
-              <p className="card-text">
-                This is my Ironhack final project. It's a full responsive MERN
-                web application make with ReactJs, ExpressJs, NodeJs, MongoDB,
-                Axios, API Rest & Bootstrap.
-              </p>
-              <p className="card-text">
-                <small className="stack-text">
-                  React | Express | MongoJS | NodeJS
-                </small>
-              </p>
-              <Fade bottom duration={1000} delay={2000} distance="30px">
-              <div>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cta-btn cta-btn-hero"
-                  href="https://www.sarapalacios.me"
-                >
-                  Live
-                </a>
-
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cta-btn text-color-main"
-                  href="https://www.sarapalacios.me"
-
-                >
-                  Code
-                </a>
-              </div>
-              </Fade>
-            </div>
-          </div>
-        </Fade>
-        <br></br>
-        <Fade right duration={1000} delay={1000} distance="30px">
-          <div className="d-flex card">
-            <div>
-              <img
-                className="card-img-top"
-                src="https://i.ibb.co/C8WGXDN/Funko-3.png"
-                alt="funkotrivial"
-              />
-            </div>
-            <div className="card-body">
-              <h5 className="card-title">Funko Hollywood Trivial</h5>
-              <p className="card-text">
-                This is my Ironhack final project. It's a full responsive MERN
-                web application make with ReactJs, ExpressJs, NodeJs, MongoDB,
-                Axios, API Rest & Bootstrap.
-              </p>
-              <p className="card-text">
-                <small className="stack-text">
-                  React | Express | MongoJS | NodeJS
-                </small>
-              </p>
-              <Fade bottom duration={1000} delay={2000} distance="30px">
-              <div>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cta-btn cta-btn-hero"
-                  href="https://www.sarapalacios.me"
-                >
-                  Live
-                </a>
-
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cta-btn text-color-main"
-                  href="https://www.sarapalacios.me"
-
-                >
-                  Code
-                </a>
-              </div>
+                </div>
               </Fade>
             </div>
           </div>
         </Fade>
 
-        <br></br>
-        <br></br>
+
+
       </div>
+      <div className="projects-cards  card-deck">
+
+<Fade left duration={1000} delay={1000} distance="30px">
+  <div className="card">
+    <div>
+      <img
+        className="card-img-top"
+        src="https://i.ibb.co/42Tn4BY/cocktails-3.png"
+        alt="cocktails"
+      />
     </div>
+    <div className="card-body">
+      <h5 className="card-title">All city cocktails</h5>
+      <p className="card-text">
+      {i18n.t('allcitycocktails')}
+    </p>
+      <p className="card-text">
+        <small className="stack-text">
+          React | Express | MongoJS | NodeJS
+      </small>
+      </p>
+      <Fade bottom duration={1000} delay={2000} distance="30px">
+        <div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-btn cta-btn-hero"
+            href="https://www.sarapalacios.me"
+          >
+            Site
+      </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-btn text-color-main"
+            href="https://www.sarapalacios.me"
+
+          >
+            GitHub
+      </a>
+        </div>
+      </Fade>
+    </div>
+  </div>
+</Fade>
+
+<Fade left duration={1000} delay={1000} distance="30px">
+  <div className="card">
+    <div>
+      <img
+        className="card-img-top"
+        src="https://i.ibb.co/C8WGXDN/Funko-3.png"
+        alt="funkotrivial"
+      />
+    </div>
+    <div className="card-body">
+      <h5 className="card-title">Funko Hollywood Trivial</h5>
+      <p className="card-text">
+        This is my Ironhack final project. It's a full responsive MERN
+        web application make with ReactJs, ExpressJs, NodeJs, MongoDB,
+        Axios, API Rest & Bootstrap.
+    </p>
+      <p className="card-text">
+        <small className="stack-text">
+          React | Express | MongoJS | NodeJS
+      </small>
+      </p>
+      <Fade bottom duration={1000} delay={2000} distance="30px">
+        <div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-btn cta-btn-hero"
+            href="https://www.sarapalacios.me"
+          >
+            Site
+      </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-btn text-color-main"
+            href="https://www.sarapalacios.me"
+
+          >
+            GitHub
+      </a>
+        </div>
+      </Fade>
+    </div>
+  </div>
+</Fade>
+</div>
+
+    </div>
+
+
+</div>
   );
 };
 

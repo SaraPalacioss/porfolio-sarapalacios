@@ -1,25 +1,32 @@
 import React from "react";
+import i18n from '../../i18n';
 import "../../styles/ReadMe/ButtonCV.scss";
 
 const ButtonCV = () => {
   return (
     <div className="btn-box">
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        className="cta-btn btn-cv"
-        href="https://drive.google.com/file/d/1dne34zF5dbEZLaWbDsoLvWCfh0De39TZ/view"
-      >
-        Resume ENG
+      {window.location.pathname.substr(1, 2) === 'en'
+
+        ?
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cta-btn btn-cv"
+          href="https://drive.google.com/file/d/1hn601KLMTsc_n74lVej0nA4HH9b4EA_N/view?usp=sharing"
+        >
+          {i18n.t('resume')}
       </a>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        className="cta-btn btn-cv"
-        href="https://drive.google.com/file/d/1mHsOxWyvBqc4aTfDZ63Snc-frdcaoOqy/view"
-      >
-        Resume ES
+        :
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cta-btn btn-cv"
+          href="https://drive.google.com/file/d/1VeuVzikG8GdIrjxvWbZ15d2KijYFhcG2/view?usp=sharing"
+        >
+          {i18n.t('resume')}
       </a>
+      }
+
     </div>
   );
 };

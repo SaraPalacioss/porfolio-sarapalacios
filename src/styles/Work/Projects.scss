@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+.projects-bg {
+  background-color: #201f1f;}
+
 
 .projects-cards small {
   font-size: medium;
   color: rgb(255, 255, 255)
 }
+
 
 .projects-cards h5 {
   color: rgb(235, 185, 79);
@@ -15,7 +19,13 @@
   background-color: #201f1f;
   height: fit-content !important;
   font-family: "Montserrat", sans-serif;
+
+
+
+  padding-top: 85px;
+  padding-bottom: 40px;
 }
+
 
 .card-body {
   background-color:#201f1f;
@@ -23,12 +33,11 @@
 
 .card {
   border: gainsboro !important;
-  flex-direction: row !important;
+
 }
 
 @media (max-width: 1000px) {
   .card {
-    flex-direction: column !important;
     margin-left: 10px !important;
     margin-right: 10px !important;
   }

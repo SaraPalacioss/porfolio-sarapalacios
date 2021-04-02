@@ -30,14 +30,12 @@ import React, { Fragment } from "react";
 import Navbar from "./components/Layout/Navbar";
 
 import Hero from "./components/Hero/Hero";
-import ReadMeTitle from "./components/Titles/ReadMeTitle";
 import ReadMe from "./components/ReadMe/ReadMe";
 import ProjectsTitle from "./components/Titles/ProjectsTitle";
 import Projects from "./components/Work/Projects";
 import AppsTitle from "./components/Titles/AppsTitle";
 
 import Apps from "./components/Work/Apps";
-import ContactTitle from "./components/Titles/ContactTitle";
 
 import Contact from "./components/Contact";
 
@@ -48,13 +46,11 @@ const Home = () => {
     <Fragment>
       <Navbar />
       <Hero />
-      {/* <ReadMeTitle /> */}
       <ReadMe />
       <ProjectsTitle />
       <Projects />
       <AppsTitle />
       <Apps />
-      {/* <ContactTitle/> */}
       <Contact />
 
       <Footer />

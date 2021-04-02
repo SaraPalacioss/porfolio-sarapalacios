@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import i18n from '../../i18n';
 
 import "../../styles/Hero/Hero.scss";
 
@@ -16,7 +17,8 @@ const Hero = () => {
 
         <div className="role">
           <div className="block"></div>
-          <p className="my-role">Full Stack Developer</p>
+          <p className="my-role">{i18n.t('fullstack_developer')}
+</p>
         </div>
         <div className="adding">
           <div className="button"></div>
