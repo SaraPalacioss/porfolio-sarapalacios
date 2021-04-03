@@ -165,9 +165,7 @@ const Projects = () => {
               <div className="card-body">
                 <h5 className="card-title">Funko Hollywood Trivial</h5>
                 <p className="card-text">
-                  This is my Ironhack final project. It's a full responsive MERN
-                  web application make with ReactJs, ExpressJs, NodeJs, MongoDB,
-                  Axios, API Rest & Bootstrap.
+                {i18n.t('funkohollywood')}
     </p>
                 <p className="card-text">
                   <small className="stack-text">
