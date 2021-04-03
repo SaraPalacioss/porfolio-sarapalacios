@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 
 .readme {
   background-color: #ffb510;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: rgb(30, 27, 27);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .readme img {
@@ -20,6 +19,7 @@
 
 .readme p {
   padding-left: 20px;
+  font-size: 30px;
 }
 
 .readme h1 {
@@ -28,7 +28,7 @@
 }
 
 .readme span {
-color: white;
+  color: white;
 }
 
 .stack-t {
@@ -64,12 +64,8 @@ color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  line-height: 50px;
-  
-
+  line-height: 55px;
 }
-
-
 
 @media (min-width: 30px) {
   .readme {
@@ -115,8 +111,8 @@ color: white;
     margin-top: 10px;
   }
   .readme p {
-    padding-top: 40px;
-    font-size: 20px;
+    padding-top: 38px;
+    font-size: 15px;
   }
   .readme img {
     width: 330px;
@@ -141,8 +137,8 @@ color: white;
     margin-top: 10px;
   }
   .readme p {
-    padding-top: 10px;
-    font-size: 21px;
+    padding-top: 38px;
+    font-size: 18px;
   }
   .readme img {
     width: 350px;
@@ -165,8 +161,8 @@ color: white;
   }
 
   .readme p {
-    padding-top: 10px;
-    font-size: 23px;
+    padding-top: 40px;
+    font-size: 20px;
   }
   .readme img {
     width: 350px;

@@ -2,14 +2,13 @@ import React from "react";
 import i18n from '../../i18n';
 import "../../styles/ReadMe/ReadMe.scss";
 import Fade from "react-reveal/Fade";
-
 import Pulse from "react-reveal/Pulse";
 import ButtonCV from "../ReadMe/ButtonCV";
 
 const ReadMe = () => {
   return (
     <div className="readme" id="readmeid">
-      <div className="readme-info">
+      <div className="readme-info container">
         <Pulse>
           <img
             src="https://i.ibb.co/1dsMxSP/Captura-de-pantalla-2020-12-01-a-las-23-23-20.jpg"
@@ -21,39 +20,42 @@ const ReadMe = () => {
             {" "}
             <Fade right duration={1000} delay={1000} distance="30px">
               <p>
-              {i18n.t('bio')}
-                <br></br>
-                <br></br>
-                <span className="stack">
-                {i18n.t('tech_stack')}: 
-                  <br></br>
-                  <br></br>
-              
-                  <div className="stack-container">
-                  <div><a className="stack-style">JavaScript</a></div> 
-                  <div><a className="stack-style">TypeScript</a></div>
-                  <div><a className="stack-style">React</a></div>
-                  <div><a className="stack-style">NodeJS</a></div>
-                  <div><a className="stack-style">Express</a></div>
-                  <div><a className="stack-style">MongoDB</a></div>
-                  <div><a className="stack-style">Mongoose</a></div>
-                  <div><a className="stack-style">Handlebars</a></div>
-                  <div><a className="stack-style">API REST</a></div>
-                  <div><a className="stack-style">Git</a></div>
-                  <div><a className="stack-style">GitHub</a></div>
-                  <div><a className="stack-style">ES6</a></div>
-                  <div><a className="stack-style">HTML</a></div>
-                  <div><a className="stack-style">CSS</a></div>
-                  </div>
-            
-                </span>
+                {i18n.t('bio')}
               </p>
             </Fade>
+            <br></br>
+            <br></br>
+            <Fade right duration={1000} delay={2000} distance="30px">
+              <span className="stack container">
+                {i18n.t('tech_stack')}:
+                <br></br>
+                <br></br>
+                <Fade right duration={1000} delay={3000} distance="30px">
+                  <div className="stack-container container">
+                    <div><a className="stack-style">JavaScript</a></div>
+                    <div><a className="stack-style">TypeScript</a></div>
+                    <div><a className="stack-style">React</a></div>
+                    <div><a className="stack-style">NodeJS</a></div>
+                    <div><a className="stack-style">Express</a></div>
+                    <div><a className="stack-style">MongoDB</a></div>
+                    <div><a className="stack-style">Mongoose</a></div>
+                    <div><a className="stack-style">Handlebars</a></div>
+                    <div><a className="stack-style">API REST</a></div>
+                    <div><a className="stack-style">Git</a></div>
+                    <div><a className="stack-style">GitHub</a></div>
+                    <div><a className="stack-style">ES6</a></div>
+                    <div><a className="stack-style">HTML</a></div>
+                    <div><a className="stack-style">CSS</a></div>
+                  </div>
+                </Fade>
+              </span>
+            </Fade>
+
           </div>
           <br></br>
-              
+
           <div>
-            <Fade bottom duration={1000} delay={3000} distance="30px">
+            <Fade bottom duration={1000} delay={4000} distance="30px">
               <ButtonCV />
             </Fade>
           </div>

@@ -21,7 +21,7 @@ const ButtonCV = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="cta-btn btn-cv"
-          href="https://drive.google.com/file/d/1VeuVzikG8GdIrjxvWbZ15d2KijYFhcG2/view?usp=sharing"
+          href="https://drive.google.com/file/d/1q9GUEOfXDvkGKXTiokyFeypANdSfAmsV/view?usp=sharing"
         >
           {i18n.t('resume')}
       </a>

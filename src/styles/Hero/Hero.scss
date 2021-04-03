@@ -27,10 +27,18 @@
       .block {
         width: 0%;
         height: inherit;
-        background: #e65c00;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to left, #F9D423, #e65c00);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to left, #F9D423, #e65c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+        background: #e65c00; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to left,
+          #f9d423,
+          #e65c00
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to left,
+          #f9d423,
+          #e65c00
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         position: absolute;
         animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
         display: flex;
@@ -111,7 +119,6 @@
         font-family: "Lato";
         color: #ffffff;
         letter-spacing: 4px;
-    
       }
     }
   }
@@ -259,13 +266,19 @@
 
 @media (min-width: 30px) {
   .my-name {
-    font-size: 40px;
+    font-size: 30px;
   }
   .my-role {
-    font-size: 15px;
+    font-size: 10px;
   }
   .role {
     margin-top: -40px;
+  }
+  .button {
+    font-size: 10px;
+  }
+  .button:hover {
+    text-decoration: blue;
   }
 }
 
@@ -279,6 +292,9 @@
   .role {
     margin-top: -30px;
   }
+  .button {
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -290,5 +306,8 @@
   }
   .role {
     margin-top: -20px;
+  }
+  .button {
+    font-size: 15px;
   }
 }

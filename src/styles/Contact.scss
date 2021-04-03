@@ -1,103 +1,129 @@
 .contact {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    height: 60vh;
-    align-items: center;
-    background-color: #ffb510;
-  
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffb510;
 }
 
-.social-icons{
-    margin-top: 40px;
-    flex-direction: row;
-    display: flex;
-    justify-content: space-around;
- 
-    
-    
+.social-icons {
+  margin-top: 40px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
 }
 
-.social-icons img{
-  width: 50px;
-
-  
-  
+.social:hover {
+  transform: translateY(-3px);
 }
 
-.social-icons img:hover{
-  color: #df0e70;
-
-  
-  
+.social-icons > div {
+  display: flex;
+  padding: 20px;
 }
-
-
-
-.social-icons > div{
-
-    display: flex;
-
-    padding: 30px;
-    
-    
-}
-
-.social-icons img {
-    width: 50px;
-}
-
-
 
 
 .contact-btn {
-    display: inline-block;
-    position: relative;
-    padding: 0.8rem 1.6rem;
-    font-weight: bold;
-    line-height: 1;
-    z-index: 1;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
-  
+  display: inline-block;
+  position: relative;
+  padding: 0.8rem 1.6rem;
+  font-weight: bold;
+  line-height: 1;
+  z-index: 1;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+  }
+}
+
+.contact-box {
+  padding-left: 10px;
+}
+.contact-cv {
+  color: #ffffff;
+  border: 2px solid #292828;
+  background-color: #292828;
+
+  margin: 10px;
+  padding: 30px;
+  font-size: larger;
+
+  &::after {
+    background: #292828;
+  }
+
+  &:hover {
+    color: #df0e70;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+
     &::after {
-      content: '';
-      display: block;
-      position: absolute;
-      width: 0px;
-      height: 100%;
-      left: 0;
-      bottom: 0;
-      z-index: -1;
-      transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+      width: 100%;
     }
   }
- 
-  .contact-box {
-     padding-left: 10px;
+}
+
+@media (min-width: 30px) {
+  .contact h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .contact {
+    height: 35vh;
+  }
+  .social-icons img {
+    width: 35px;
   }
   .contact-cv {
-    color: #ffffff;
-    border: 2px solid #292828;
-      background-color: #292828;
-      
-    margin: 10px;
-    padding: 30px;
-    font-size: larger;
-    
-  
-    &::after {
-      background: #292828;
-    }
-  
-    &:hover {
-      color: #df0e70;
-      background-color: rgb(0, 0, 0);
-      text-decoration: none;
-  
-      &::after {
-        width: 100%;
-      }
-    }
+   
+    padding: 15px;
+    font-size: medium;
+  }  
+}
+
+@media (min-width: 992px) {
+  .contact h2 {
+    font-size: 30px;
+    text-align: center;
   }
- 
+  .social-icons img {
+    width: 45px;
+  }
+  .contact-cv {
+   
+    padding: 20px;
+    font-size: larger;
+  }  
+  .contact {
+    height: 40vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .social-icons img {
+    width: 50px;
+  }
+  .contact-cv {
+   
+    padding: 30px;
+    font-size: x-large;
+  }   
+  .contact {
+    height: 60vh;
+  }
+}

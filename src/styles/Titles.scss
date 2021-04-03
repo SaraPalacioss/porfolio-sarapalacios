@@ -16,8 +16,36 @@
   
   .jumbotron h1{
   
+
+    font-size: 20px;
+  
+  }
+
+
+@media (min-width: 30px) {
+  .jumbotron h1{
+  
     color: rgb(255, 255, 255) !important;
     font-family: "Poppins";
+    font-size: 30px;
+  
+  }
+}
+
+@media (min-width: 992px) {
+  .jumbotron h1{
+  
+
     font-size: 40px;
   
   }
+}
+
+@media (min-width: 1200px) {
+  .jumbotron h1{
+  
+
+    font-size: 40px;
+  
+  }
+}

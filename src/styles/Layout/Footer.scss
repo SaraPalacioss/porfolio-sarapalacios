@@ -10,3 +10,17 @@ footer a{
 footer a:hover{
     color: gainsboro;
 }
+
+@media (min-width: 30px) {
+  footer {
+      font-size: 12px;
+  }
+  }
+  
+  @media (min-width: 992px) {
+    footer {
+        font-size: 16px;
+    }
+  }
+  
+  

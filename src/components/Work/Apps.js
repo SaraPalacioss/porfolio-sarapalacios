@@ -1,4 +1,5 @@
 import React from "react";
+import i18n from '../../i18n';
 import "../../styles/Work/Apps.scss";
 import Fade from "react-reveal/Fade";
 
@@ -17,7 +18,7 @@ const Apps = () => {
             />
 
             <figcaption className="title-style">
-              <h4>Criptoconverter</h4>
+              <h4>{i18n.t('criptoconverter')}</h4>
               <a href="https://criptoconverter.netlify.app"> </a>
             </figcaption>
           </figure>
@@ -30,7 +31,7 @@ const Apps = () => {
             />
 
             <figcaption className="title-style">
-              <h4>Breaking Bad quotes</h4>
+              <h4>{i18n.t('bb_quotes')}</h4>
               <a href="https://breakingbadquotess.netlify.app"> </a>
             </figcaption>
           </figure>
@@ -44,7 +45,7 @@ const Apps = () => {
             />
 
             <figcaption className="title-style">
-            <h4>Veterinary booking</h4>
+            <h4>{i18n.t('veterinary_booking')}</h4>
               <a href="https://citasadministrador.netlify.app"> </a>
             </figcaption>
           </figure>
@@ -57,7 +58,7 @@ const Apps = () => {
             />
 
             <figcaption className="title-style">
-              <h4>Lyrics Search</h4>
+              <h4>{i18n.t('lyric_search')}</h4>
               <a href="https://buscadordeletras.netlify.app"> </a>
             </figcaption>
           </figure>
@@ -69,7 +70,7 @@ const Apps = () => {
             />
 
             <figcaption className="title-style">
-              <h4>Images finder</h4>
+              <h4>{i18n.t('image_search')}</h4>
               <a href="https://imagenesfinder.netlify.app"> </a>
             </figcaption>
           </figure>
@@ -81,7 +82,7 @@ const Apps = () => {
             />
 
             <figcaption className="title-style">
-              <h4>Burget</h4>
+              <h4>{i18n.t('budget')}</h4>
               <a href="https://presupuestocontrol.netlify.app"> </a>
             </figcaption>
           </figure>
@@ -93,7 +94,7 @@ const Apps = () => {
             />
 
             <figcaption className="title-style">
-              <h4>Car Assurance Calculator</h4>
+              <h4>{i18n.t('car_assurance')}</h4>
               <a href="https://cotizadorparaseguros.netlify.app"> </a>
             </figcaption>
           </figure>
@@ -105,7 +106,7 @@ const Apps = () => {
             />
 
             <figcaption className="title-style">
-              <h4>Weather</h4>
+              <h4>{i18n.t('weather')}</h4>
               <a href="https://eltiempoactual.netlify.app"> </a>
             </figcaption>
           </figure>
