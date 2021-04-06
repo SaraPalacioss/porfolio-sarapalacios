@@ -23,7 +23,6 @@
   padding: 20px;
 }
 
-
 .contact-btn {
   display: inline-block;
   position: relative;
@@ -86,10 +85,9 @@
     width: 35px;
   }
   .contact-cv {
-   
     padding: 15px;
     font-size: medium;
-  }  
+  }
 }
 
 @media (min-width: 992px) {
@@ -101,10 +99,9 @@
     width: 45px;
   }
   .contact-cv {
-   
     padding: 20px;
     font-size: larger;
-  }  
+  }
   .contact {
     height: fit-content;
   }
@@ -119,10 +116,9 @@
     width: 50px;
   }
   .contact-cv {
-   
     padding: 30px;
     font-size: x-large;
-  }   
+  }
   .contact {
     height: 60vh;
   }

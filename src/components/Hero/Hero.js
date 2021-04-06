@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="role">
           <div className="block"></div>
           <p className="my-role">{i18n.t('fullstack_developer')}
-</p>
+          </p>
         </div>
         <div className="adding">
           <div className="button"></div>
