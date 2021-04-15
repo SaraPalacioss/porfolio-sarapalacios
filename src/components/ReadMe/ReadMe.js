@@ -1,5 +1,6 @@
 import React from "react";
-import i18n from '../../i18n';
+import i18n from "../../i18n";
+import Profile from "../../images/profile.jpeg"
 import "../../styles/ReadMe/ReadMe.scss";
 import Fade from "react-reveal/Fade";
 import Pulse from "react-reveal/Pulse";
@@ -11,7 +12,7 @@ const ReadMe = () => {
       <div className="readme-info container">
         <Pulse>
           <img
-            src="https://i.ibb.co/1dsMxSP/Captura-de-pantalla-2020-12-01-a-las-23-23-20.jpg"
+            src={Profile}
             alt="sara-pic"
           />
         </Pulse>
@@ -55,7 +56,7 @@ const ReadMe = () => {
           <br></br>
 
           <div>
-            <Fade bottom duration={1000} delay={4000} distance="30px">
+            <Fade bottom duration={1000} delay={3000} distance="30px">
               <ButtonCV />
             </Fade>
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
-import i18n from '../../i18n';
-import Pulse from 'react-reveal/Pulse';
+import i18n from "../../i18n";
+import Pulse from "react-reveal/Pulse";
 
 import "../../styles/Titles.scss";
 

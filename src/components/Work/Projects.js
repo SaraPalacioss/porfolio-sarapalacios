@@ -1,5 +1,9 @@
 import React from "react";
-import i18n from '../../i18n';
+import i18n from "../../i18n";
+import Portfolio from "../../images/portfolio.png";
+import TheGoodFilm from "../../images/thegoodfilm.png";
+import AllCityCocktails from "../../images/cocktail.png";
+import FunkoHollywood from "../../images/Funko.png";
 import "../../styles/Work/Projects.scss";
 import Fade from "react-reveal/Fade";
 
@@ -14,7 +18,7 @@ const Projects = () => {
               <div>
                 <img
                   className="card-img-top"
-                  src="https://i.ibb.co/PQB6qJN/portolio.png"
+                  src={Portfolio}
                   alt="portfolio"
                 />
               </div>
@@ -52,22 +56,16 @@ const Projects = () => {
                 </Fade>
               </div>
             </div>
-
-
-
           </Fade>
-
           <Fade right duration={1000} delay={1000} distance="30px">
             <div className="card">
-
               <div>
                 <img
                   className="card-img-top"
-                  src="https://i.ibb.co/sPCjvTL/thegoodfilm-1.png"
+                  src={TheGoodFilm}
                   alt="thegoodfilm"
                 />
               </div>
-
               <div className="card-body">
                 <h5 className="card-title">theGoodFilm</h5>
                 <p className="card-text">
@@ -88,7 +86,6 @@ const Projects = () => {
                     >
                       {i18n.t('site')}
                     </a>
-
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
@@ -102,9 +99,6 @@ const Projects = () => {
               </div>
             </div>
           </Fade>
-
-
-
         </div>
         <div className="projects-cards  card-deck">
 
@@ -113,7 +107,7 @@ const Projects = () => {
               <div>
                 <img
                   className="card-img-top"
-                  src="https://i.ibb.co/42Tn4BY/cocktails-3.png"
+                  src={AllCityCocktails}
                   alt="cocktails"
                 />
               </div>
@@ -125,7 +119,7 @@ const Projects = () => {
                 <p className="card-text">
                   <small className="stack-text">
                     Handlebars | Express | MongoJS | NodeJS
-      </small>
+                  </small>
                 </p>
                 <Fade bottom duration={1000} delay={2000} distance="30px">
                   <div>
@@ -146,31 +140,30 @@ const Projects = () => {
 
                     >
                       GitHub
-      </a>
+                    </a>
                   </div>
                 </Fade>
               </div>
             </div>
           </Fade>
-
           <Fade left duration={1000} delay={1000} distance="30px">
             <div className="card">
               <div>
                 <img
                   className="card-img-top"
-                  src="https://i.ibb.co/C8WGXDN/Funko-3.png"
+                  src={FunkoHollywood}
                   alt="funkotrivial"
                 />
               </div>
               <div className="card-body">
                 <h5 className="card-title">Funko Hollywood Trivial</h5>
                 <p className="card-text">
-                {i18n.t('funkohollywood')}
-    </p>
+                  {i18n.t('funkohollywood')}
+                </p>
                 <p className="card-text">
                   <small className="stack-text">
                     Vanilla JavaScript | HTML | CSS
-      </small>
+                  </small>
                 </p>
                 <Fade bottom duration={1000} delay={2000} distance="30px">
                   <div>
@@ -191,7 +184,7 @@ const Projects = () => {
 
                     >
                       GitHub
-      </a>
+                    </a>
                   </div>
                 </Fade>
               </div>
@@ -200,8 +193,6 @@ const Projects = () => {
         </div>
 
       </div>
-
-
     </div>
   );
 };

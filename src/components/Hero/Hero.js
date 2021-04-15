@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import i18n from '../../i18n';
+import i18n from "../../i18n";
 
 import "../../styles/Hero/Hero.scss";
 
