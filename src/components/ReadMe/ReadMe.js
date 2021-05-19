@@ -38,6 +38,9 @@ const ReadMe = () => {
                     <div><a className="stack-style">React</a></div>
                     <div><a className="stack-style">NodeJS</a></div>
                     <div><a className="stack-style">Express</a></div>
+                    <div><a className="stack-style">Redux</a></div>
+                    <div><a className="stack-style">NextJS</a></div>
+                    <div><a className="stack-style">Gatsby</a></div>
                     <div><a className="stack-style">MongoDB</a></div>
                     <div><a className="stack-style">Mongoose</a></div>
                     <div><a className="stack-style">Handlebars</a></div>
