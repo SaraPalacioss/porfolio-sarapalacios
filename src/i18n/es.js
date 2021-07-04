@@ -29,5 +29,5 @@ export const esp = {
     footer: 'Creado por Sara Palacios',
     pagenotfound1: `Oops, no podemos encontrar esta página. Haz click`,
     pagenotfound2: `aquí`,
-    pagenotfound3: `para regresar a la página principal.`,
+    pagenotfound3: `para regresar.`,
 };

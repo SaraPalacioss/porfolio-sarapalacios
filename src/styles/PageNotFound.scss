@@ -21,25 +21,24 @@
   }
 
   button {
-	background-color:white;
-	display:inline-block;
-	cursor:pointer;
-	color:black;
-	font-family:Arial;
+    background-color: white;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-family: Arial;
 
-	text-decoration:none;
-}
+    text-decoration: none;
+  }
 
-button:hover {
-	background-color:#f9d423;
-	display:inline-block;
-	cursor:pointer;
-	color:black;
-	font-family:Arial;
+  button:hover {
+    background-color: #f9d423;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-family: Arial;
 
-	text-decoration:none;
-}
-
+    text-decoration: none;
+  }
 
   .position-pic {
     height: 100vh;
@@ -59,7 +58,7 @@ button:hover {
     }
 
     h2 {
-      font-size: 15px;
+      font-size: 20px;
       text-align: right;
       text-align: center;
     }
@@ -71,64 +70,55 @@ button:hover {
   }
 }
 
-
 @media (min-width: 494px) {
-    .pagenotfound {
-        img {
-          width:80% !important;
-        }
-    
-        h2 {
-          font-size: 20px;
-          text-align: right;
-          text-align: right;
-        }
-      }
-      .position-pic {
-        display: flex;
-        flex-wrap:nowrap;
-      }
-    
-    
+  .pagenotfound {
+    img {
+      width: 80% !important;
+    }
+
+    h2 {
+      font-size: 20px;
+      text-align: right;
+      text-align: right;
+    }
+  }
+  .position-pic {
+    display: flex;
+    flex-wrap: nowrap;
+  }
 }
 @media (min-width: 640px) {
-    .pagenotfound {
-        img {
-          width: 50%;
-        }
-    
-        h2 {
-          font-size: 20px;
-          text-align: right;
-          text-align: right;
-        }
-      }
-      .position-pic {
-        display: flex;
-        flex-wrap:nowrap;
-      }
-    
-    
+  .pagenotfound {
+    img {
+      width: 50%;
+    }
+
+    h2 {
+      font-size: 20px;
+      text-align: right;
+      text-align: right;
+    }
+  }
+  .position-pic {
+    display: flex;
+    flex-wrap: nowrap;
+  }
 }
 
-
-
 @media (min-width: 1200px) {
-    .pagenotfound {
-        img {
-          width: 40%;
-        }
-    
-        h2 {
-          font-size: 50px;
-          text-align: right;
-          text-align: right;
-        }
-      }
-      .position-pic {
-        display: flex;
-        flex-wrap:nowrap;
-      }
-    
-    
+  .pagenotfound {
+    img {
+      width: 40%;
+    }
+
+    h2 {
+      font-size: 50px;
+      text-align: right;
+      text-align: right;
+    }
+  }
+  .position-pic {
+    display: flex;
+    flex-wrap: nowrap;
+  }
 }
