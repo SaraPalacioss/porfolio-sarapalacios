@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import i18n from "../i18n";
 import Fade from "react-reveal/Fade";
 import Pulse from "react-reveal/Pulse";
@@ -13,6 +14,9 @@ const Contact = () => {
 
     return (
         <div className="contact" id="contactid">
+            <Helmet>
+                <title>Contacto</title>
+            </Helmet>
             <Fade top duration={1000} delay={1000} distance="30px">
                 <h2>{i18n.t('contact_f')}</h2>
             </Fade>

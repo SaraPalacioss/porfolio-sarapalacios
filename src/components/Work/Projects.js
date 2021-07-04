@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import i18n from "../../i18n";
 import Portfolio from "../../images/portfolio.png";
 import TheGoodFilm from "../../images/thegoodfilm.png";
@@ -10,6 +11,9 @@ import Fade from "react-reveal/Fade";
 const Projects = () => {
   return (
     <div className="projects-bg">
+        <Helmet>
+        <title>Proyectos</title>
+      </Helmet>
       <div className="projects container">
 
         <div className="projects-cards  card-deck">

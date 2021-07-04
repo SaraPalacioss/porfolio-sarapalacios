@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Cripto from "../../images/Cripto.jpeg";
 import BBad from "../../images/BBad.jpeg";
 import Vet from "../../images/vet.jpeg";
@@ -15,6 +16,9 @@ import Fade from "react-reveal/Fade";
 const Apps = () => {
   return (
     <div className="app-style" id="appsid">
+       <Helmet>
+        <title>Apps</title>
+      </Helmet>
       <Fade bottom duration={1000} delay={1000} distance="30px">
 
         <div className="card-columns container">

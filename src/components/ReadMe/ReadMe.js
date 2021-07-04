@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import i18n from "../../i18n";
 import Profile from "../../images/profile.jpeg"
 import "../../styles/ReadMe/ReadMe.scss";
@@ -9,6 +10,9 @@ import ButtonCV from "../ReadMe/ButtonCV";
 const ReadMe = () => {
   return (
     <div className="readme" id="readmeid">
+      <Helmet>
+        <title>ReadMe</title>
+      </Helmet>
       <div className="readme-info container">
         <Pulse>
           <img
