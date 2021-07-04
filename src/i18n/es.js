@@ -26,5 +26,8 @@ export const esp = {
     car_assurance: 'CALCULADORA SEGURO COCHES',
     weather: 'TIEMPO',
     contact_f: '¿Quieres contactar conmigo? ¡Genial!',
-    footer: 'Creado por Sara Palacios'
+    footer: 'Creado por Sara Palacios',
+    pagenotfound1: `Oops, no podemos encontrar esta página. Haz click`,
+    pagenotfound2: `aquí`,
+    pagenotfound3: `para regresar a la página principal.`,
 };

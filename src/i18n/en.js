@@ -25,7 +25,10 @@ export const eng = {
     car_assurance: 'CAR ASSURANCE CALCULATOR',
     weather: 'WEATHER',
     contact_f: 'Would you like to contact with me?? Great!!',
-    footer: 'Created by Sara Palacios'
+    footer: 'Created by Sara Palacios',
+    pagenotfound1: `Oops, we can't find that page. Click`,
+    pagenotfound2: `here`,
+    pagenotfound3: `to go Home.`,
 
 
 
