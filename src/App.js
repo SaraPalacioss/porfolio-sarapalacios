@@ -13,7 +13,7 @@ const App = () => {
    
       <Route exact path="/en" component={Home} />
       <Route exact path="/es" component={Home} />
-      <Route component={PageNotFound} />
+      <Route path="*" component={PageNotFound} status={404}/>
     </Switch>
   </Router>
   );
