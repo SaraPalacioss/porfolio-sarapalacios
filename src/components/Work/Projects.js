@@ -20,6 +20,7 @@ const Projects = () => {
                   className="card-img-top"
                   src={Portfolio}
                   alt="portfolio"
+                  title="Sara Palacios portfolio"
                 />
               </div>
               <div className="card-body">
@@ -64,6 +65,7 @@ const Projects = () => {
                   className="card-img-top"
                   src={TheGoodFilm}
                   alt="thegoodfilm"
+                  title="The good film"
                 />
               </div>
               <div className="card-body">
@@ -109,6 +111,7 @@ const Projects = () => {
                   className="card-img-top"
                   src={AllCityCocktails}
                   alt="cocktails"
+                  title="All city cocktails"
                 />
               </div>
               <div className="card-body">
@@ -153,6 +156,7 @@ const Projects = () => {
                   className="card-img-top"
                   src={FunkoHollywood}
                   alt="funkotrivial"
+                  title="Funko Hollywood Trivial"
                 />
               </div>
               <div className="card-body">

@@ -6,9 +6,9 @@ import "../../styles/Titles.scss";
 
 const SmallAppsTitle = () => {
   return (
-    <div className="jumbotron" id="projectsid">
+    <div className="jumbotron">
       <Pulse>
-        <h1 className="display-4">- {i18n.t('apps_title')} -</h1>
+        <h2 className="display-4">- {i18n.t('apps_title')} -</h2>
       </Pulse>
     </div>
   );

@@ -15,10 +15,10 @@ const Navbar = () => {
 
         <li className="nav-item active nav-link">
           <a href="/es/">
-            <img className="flag" src={EspFlag} alt="spanish-flag" />
+            <img className="flag" src={EspFlag} alt="spanish-flag" title="Spanish flag logo" />
           </a>
           <a href="/en/">
-            <img className="flag" src={EngFlag} alt="english-flag" />
+            <img className="flag" src={EngFlag} alt="english-flag" title="English flag logo" />
           </a>
         </li>
       </ul>

@@ -14,6 +14,7 @@ const ReadMe = () => {
           <img
             src={Profile}
             alt="sara-pic"
+            title="Sara Palacios pic"
           />
         </Pulse>
         <div>
@@ -28,7 +29,7 @@ const ReadMe = () => {
             <br></br>
             <Fade right duration={1000} delay={2000} distance="30px">
               <span className="stack container">
-                {i18n.t('tech_stack')}:
+                {i18n.t('tech_stack')}:</span>
                 <br></br>
                 <br></br>
                 <Fade right duration={1000} delay={3000} distance="30px">
@@ -52,7 +53,7 @@ const ReadMe = () => {
                     <div><a className="stack-style">CSS</a></div>
                   </div>
                 </Fade>
-              </span>
+           
             </Fade>
 
           </div>

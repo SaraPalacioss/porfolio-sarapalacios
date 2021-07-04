@@ -23,9 +23,9 @@ const Contact = () => {
             <Fade bottom duration={1000} delay={1000} distance="30px">
 
                 <div className="social-icons">
-                    <div><a className="social" href="https://www.linkedin.com/in/sara-palaciosdepedro"><img src={Linkedin} alt="linkedin" /></a></div>
-                    <div><a className="social" href="https://github.com/sarapalacioss"><img src={GitHub} alt="github" /></a></div>
-                    <div><a className="social" href="https://codepen.io/sarapalacios"><img src={CodePen} alt="codepen" /></a></div>
+                    <div><a className="social" href="https://www.linkedin.com/in/sara-palaciosdepedro"><img src={Linkedin} alt="linkedin" title="Linkedin logo" /></a></div>
+                    <div><a className="social" href="https://github.com/sarapalacioss"><img src={GitHub} alt="github" title="Github logo" /></a></div>
+                    <div><a className="social" href="https://codepen.io/sarapalacios"><img src={CodePen} alt="codepen" title="CodePen logo" /></a></div>
                 </div>
             </Fade>
         </div>

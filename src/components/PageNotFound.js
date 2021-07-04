@@ -15,7 +15,7 @@ const PageNotFound = () => {
             <div className="container position-pic">
 
                 <h2>{i18n.t('pagenotfound1')}<button onClick={goHome}> {i18n.t('pagenotfound2')} </button>{i18n.t('pagenotfound3')}</h2>
-                <img src="https://res.cloudinary.com/dvak0r03q/image/upload/v1625415752/sarapalacios/404.png" alt="404_error" />
+                <img src="https://res.cloudinary.com/dvak0r03q/image/upload/v1625415752/sarapalacios/404.png" alt="404_error" title="Error 404 image"/>
 
             </div>
         </div>

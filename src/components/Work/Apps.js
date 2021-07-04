@@ -23,6 +23,7 @@ const Apps = () => {
               <img
                 src={Cripto}
                 alt="criptoconverter"
+                title="Cryptocurrency"
               />
 
               <figcaption className="title-style">
@@ -36,6 +37,7 @@ const Apps = () => {
               <img
                 src={BBad}
                 alt="bd"
+                title="Breaking Bad"
               />
 
               <figcaption className="title-style">
@@ -49,6 +51,7 @@ const Apps = () => {
               <img
                 src={Vet}
                 alt="vet"
+                title="Veterinary"
               />
               <figcaption className="title-style">
                 <h4>{i18n.t('veterinary_booking')}</h4>
@@ -61,6 +64,7 @@ const Apps = () => {
               <img
                 src={Lyrics}
                 alt="lyricssearch"
+                title="Lyrics search"
               />
               <figcaption className="title-style">
                 <h4>{i18n.t('lyric_search')}</h4>
@@ -71,7 +75,7 @@ const Apps = () => {
           <div className="card">
             <figure className="snip0015 card-img-top">
               <img
-                src={Imagessearch} alt="imagessearch"
+                src={Imagessearch} alt="imagessearch"   title="Images search"
               />
               <figcaption className="title-style">
                 <h4>{i18n.t('image_search')}</h4>
@@ -82,7 +86,7 @@ const Apps = () => {
           <div className="card">
             <figure className="snip0015 card-img-top">
               <img
-                src={Budget} alt="budget"
+                src={Budget} alt="budget"   title="Budget"
               />
               <figcaption className="title-style">
                 <h4>{i18n.t('budget')}</h4>
@@ -93,7 +97,7 @@ const Apps = () => {
           <div className="card">
             <figure className="snip0015 card-img-top">
               <img
-                src={Calculator} alt="carassurance"
+                src={Calculator} alt="carassurance"   title="Calculator"
               />
               <figcaption className="title-style">
                 <h4>{i18n.t('car_assurance')}</h4>
@@ -104,7 +108,7 @@ const Apps = () => {
           <div className="card">
             <figure className="snip0015 card-img-top">
               <img
-                src={Weather} alt="weather"
+                src={Weather} alt="weather"   title="Weather"
               />
               <figcaption className="title-style">
                 <h4>{i18n.t('weather')}</h4>

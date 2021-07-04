@@ -15,7 +15,7 @@
     border: 1px solid #201f1f !important;
   }
   
-  .jumbotron h1{
+  .jumbotron h2{
   
 
     font-size: 20px;
@@ -24,7 +24,7 @@
 
 
 @media (min-width: 30px) {
-  .jumbotron h1{
+  .jumbotron h2{
   
     color: rgb(255, 255, 255) !important;
     font-family: "Poppins";
@@ -34,7 +34,7 @@
 }
 
 @media (min-width: 992px) {
-  .jumbotron h1{
+  .jumbotron h2{
   
 
     font-size: 40px;
@@ -43,7 +43,7 @@
 }
 
 @media (min-width: 1200px) {
-  .jumbotron h1{
+  .jumbotron h2{
   
 
     font-size: 40px;
