@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import Button from "./Button";
 import i18n from "../../i18n";
 
@@ -8,9 +7,6 @@ import "../../styles/Hero/Hero.scss";
 const Hero = () => {
   return (
     <div className="containers" id="heroid">
-      <Helmet>
-        <title>Hero</title>
-      </Helmet>
       <div className="box">
         <div className="title">
           <span className="block"></span>
